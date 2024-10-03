@@ -14,7 +14,7 @@ function getPassword (len: number , upperCase: boolean, specialChar: boolean )
     for (let i = 0; i < length; i++)
     {
         if (upperCase) 
-             {choixMot += mmajuscules }
+             {choixMot += majuscules }
     if (specialChar)
     {choixMot += symbols}
     if (Chiffres)
@@ -24,7 +24,7 @@ function getPassword (len: number , upperCase: boolean, specialChar: boolean )
     }
     
                 
-    return password[Math.floor(Math.random() * password.length)];
+    return choixMot[Math.floor(Math.random() * choixMot.length)];
 }
 
 getPassword(8,true,true )
