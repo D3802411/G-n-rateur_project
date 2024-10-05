@@ -1,14 +1,14 @@
 //Implémenter un programme pour générer des mots de passe aléatoires selon divers
 //critères (longueur, présence de chiffres, symboles, majuscules).
 //promptwindow asking for name + ps
-//3 functions: 1. getWord a random word, the pw; 2. to guide the user to choose a pw; 3.create the prompt window with 
+//3 functions: 1. getWord, made to get a random word, the pw; 2. funct that determines criteria for pw choice; 3.create the prompt window 
 
 function getWord(motsPasse: string[]): string
  {
     return motsPasse[Math.floor(Math.random() * motsPasse.length)];
 }
-//funct PW deve contenere come parametri quelli dati dalle istruzioni specificati nel loro tipo.
-//--e poi tutte le possibilità dei tipi di caratteri/parametri usati, messi in const
+//funct n.2: mus contains as parameters the criteria for password choice.
+//--as variables(conctants): all the possible char choices
 // variabile let mette insieme tuttte le possibilità dei parametri: se maiuscole, la scelta dei caratteri aggiungera la constche 
 //equivale a ABCD...
 //questo blocco serve per guidare le istruzioni per la creazione della pw
