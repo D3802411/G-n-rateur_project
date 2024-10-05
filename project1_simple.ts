@@ -1,7 +1,12 @@
-//while loop to repeat some code while certain conditions are true
-const passwordInput = prompt("Please enter the password to continue...");
+//Implémenter un programme pour générer des mots de passe aléatoires selon divers
+//critères (longueur, présence de chiffres, symboles, majuscules).
+//promptwindow asking for name + ps
+//1 function: must contain as parameters the criteria for password choice.; 
+//--as variables(conctants): all the possible char choices//while loop to repeat some code while certain conditions are true+ a variable to use as a dummy to try on the criteria
+//2. function ot create the prompt window.
 
-function getPassword (len: number, upperCase: boolean, specialChar: boolean )
+
+function getPassword (len: number, upperCase: boolean, specialChar: boolean ): string
 {   
         const minuscules: string = 'abcdefghijklmnopqrstuvwxyz';
     const majuscules: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
