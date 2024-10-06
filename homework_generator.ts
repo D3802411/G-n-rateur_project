@@ -1,5 +1,8 @@
 //create a ow generator where pw must be between 5 and 15 characters and cointain 1 lowercase, 1 uppercase, 1 number, 1 symbol
-// for each criterium there must be a variable:
+
+//It works... but only with 1 char at a time. It doesn't seem to SEE the given pw length
+
+// for each criterium/parameter there must be a variable:
 const maxLength: number = 15
 const lowerCase: boolean = true
 const upperCase: boolean = true
